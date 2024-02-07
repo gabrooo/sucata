@@ -1,0 +1,5 @@
+varGroup = open('grupo.txt','w')
+varGroup.write('gabriel,nicolas,daniel,erik,ihgor')
+varGroup = open('grupo.txt')
+print(varGroup.read())
+varGroup.close()
